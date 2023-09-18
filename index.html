@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="/styles/style.css">
+    <title>Personal Blog</title>
+    <script src="script.js"></script>
+  </head>
+  <body>
+  <!-- Header Section-->
+  <header>
+    <!--Headline-->
+    <div class="head">
+      <h1>Market Research</h1>
+    </div>
+    <!--Navigation Bar-->
+    <div class="nav-bar">
+      <a href="#tools">Tools</a>
+      <a href="#market">Market</a>
+    </div>
+  </header>
+  <!--End Header-->
+
+  <!--Main Section-->
+  <main class="container">
+    <article class="leftcolumn">
+      <div class="card">
+        <!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+  <div class="tradingview-widget-container__widget"></div>
+  <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/" rel="noopener nofollow" target="_blank"><span class="black-text">Track all markets on TradingView</span></a></div>
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-tickers.js" async>
+  {
+  "symbols": [
+    {
+      "proName": "FOREXCOM:SPXUSD",
+      "title": "S&P 500"
+    },
+    {
+      "proName": "FOREXCOM:NSXUSD",
+      "title": "US 100"
+    },
+    {
+      "proName": "FX_IDC:EURUSD",
+      "title": "EUR to USD"
+    },
+    {
+      "proName": "BITSTAMP:BTCUSD",
+      "title": "Bitcoin"
+    },
+    {
+      "proName": "BITSTAMP:ETHUSD",
+      "title": "Ethereum"
+    }
+  ],
+  "colorTheme": "dark",
+  "isTransparent": true,
+  "showSymbolLogo": true,
+  "locale": "en"
+}
+  </script>
+</div>
+<!-- TradingView Widget END -->
+      </div>
+      <div class="card">
+      <h2>US Dollar sinks ahead of US inflation reading</h2>
+      <h5>Economic Today</h5>
+      <p style="font-size: 13px;">7 hours ago</p>
+      <img class="img" src="images/usd.jpg" alt="USD inflation today">
+      <p style="font-size: 10px;">Credit: Reuters Global</p>
+      <p id="text">The Japanese Yen jumped on Monday as comments from Bank of Japan (BOJ) Governor Kazuo Ueda stoked hopes that Japan could soon herald a new era away from negative rates, while the US Dollar (USD) slid ahead of this week's key U.S. inflation reading. The dollar dropped to a three-week low on Tuesday on news of the smallest annual increase in inflation in more than two years, cementing expectations that the Federal Reserve will pause interest rate hikes at its two-day meeting ending on Wednesday. The dollar index slid to as low as 103.04 following the data, and was last down 0.3% at 103.30.</p>
+
+      <button id="show-more-button" onclick="showMore()">See more</button>
+    </div>
+    </article>
+
+  <!--Aside-->
+    <aside class="rightcolumn">
+      <div class="card">
+        <img class="profile" src="images/profile.jpg" alt="profile">
+        <h2>Let me introduce...</h2>
+        <p>Hello, I'm Jonathan </p>
+        <p>I am a financial analyst, economist, and professional trader from the United States. I have 10 years of experience in world banking and one of my highest achievements is working at the World Bank.</p>
+      </div>
+      <div class="card">
+        <h2>Quote of The Day</h2>
+        <p>“Be the change that you wish to see in the world. You have the power to make a difference.”</p>
+      </div>
+      <div class="card">
+        <!-- TradingView Widget BEGIN -->
+        <div class="tradingview-widget-container">
+          <div class="tradingview-widget-container__widget"></div>
+            <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/" rel="noopener nofollow" target="_blank"><span class="black-text">Track all markets on TradingView</span></a></div>
+            <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-events.js" async>
+  {
+            "colorTheme": "dark",
+            "isTransparent": true,
+            "width": "510",
+            "height": "600",
+            "locale": "en",
+            "importanceFilter": "0,1",
+            "currencyFilter": "AUD,USD,CAD,EUR,FRF,DEM,ITL,JPY,MXN,NZD,ZAR,ESP,CHF,TRL,GBP"
+}
+            </script>
+        </div>
+        <!-- TradingView Widget END -->
+      </div>
+    </aside>
+  </main>
+  <!--End Main-->
+
+  <!--Footer-->
+  <footer>
+    <div class="card-footer">
+      <div class="footer">
+        <h2>Copyright &copy; Jonathan Collins - 2023 || All Rights Reserved</h2>
+      </div>
+    </div>
+  </footer>
+  <!--End Footer-->
+  </body>
+</html>
